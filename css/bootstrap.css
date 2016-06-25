@@ -1,18 +1,6 @@
-/*!
- * bootswatch v3.3.6
- * Homepage: http://bootswatch.com
- * Copyright 2012-2015 Thomas Park
- * Licensed under MIT
- * Based on Bootstrap
-*/
-/*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
-  font-family: sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -52,12 +40,15 @@ template {
 a {
   background-color: transparent;
 }
-a:active,
+a:active{
+  color: blue ;
+}
 a:hover {
   outline: 0;
+  opacity: 0.5;
 }
 abbr[title] {
-  border-bottom: 1px dotted;
+  border-bottom: 1px solid grey;
 }
 b,
 strong {
@@ -67,15 +58,15 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1.4em;
   margin: 0.67em 0;
 }
 mark {
-  background: #ff0;
+  background: #336600;
   color: #000;
 }
 small {
-  font-size: 80%;
+  font-size: 70%;
 }
 sub,
 sup {
@@ -112,7 +103,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 1em;
 }
 button,
@@ -239,10 +230,12 @@ th {
   h3 {
     orphans: 3;
     widows: 3;
+      text-shadow: 1px 3px 3px #808080;  
   }
   h2,
   h3 {
     page-break-after: avoid;
+      text-shadow: 1px 3px 3px #808080;  
   }
   .navbar {
     display: none;
@@ -267,7 +260,7 @@ th {
   }
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
@@ -275,7 +268,7 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
